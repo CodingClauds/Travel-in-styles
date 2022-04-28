@@ -1,0 +1,38 @@
+.background__hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background: no-repeat contain;
+    min-height: 100vh;
+    width: 100%;
+    /* background: url("../assets/Images/hawaii.jpg") no-repeat center center; */
+}
+
+.background__iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+    background: no-repeat contain;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.background__greece {
+    background-image: url(../assets/Images/greece.jpg);
+    background: no-repeat contain;
+    min-height: 100vh;
+    width: 100%;
+}
+
+img {
+    color: transparent;
+}
+
+h1 {
+    color: #fff;
+    font-size: 4em;
+    position: relative;
+    top: 3.5em;
+    left: 1.5em;
+}
+
+/* ASK about the differences between Hawaii and the others.. code is the same. These should all be affected equally */
+.background__offset {
+    margin-top: -10em;
+}
