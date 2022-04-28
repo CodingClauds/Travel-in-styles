@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
     <title>Travel Site - Iceland</title>
 </head>
 <body>
-    <div class="nav-box">
-        <div class="logo">
-            <a href="#">travel site</a>
+    <div class="nav__box">
+        <div class="nav__logo">
+            <a class="logo capitalize color__blue" href="#">travel site</a>
         </div>
-        <!-- navbar will be d-flex w/ spacebetween  -->
-        <div class="nav__bar">
+        <div>
             <nav>
-                <ul>
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="./hawaii.html">hawaii</a></li>
-                    <li><a href="./iceland.html">iceland</a></li>
-                    <li><a href="./greece.html">greece</a></li>
+                <ul class="nav__bar">
+                    <li class="capitalize"><a class="nav__text" href="./index.html">home</a></li>
+                    <li class="capitalize"><a class="nav__text" href="./pages/hawaii.html">hawaii</a></li>
+                    <li class="capitalize"><a class="nav__text" href="./pages/iceland.html">iceland</a></li>
+                    <li class="capitalize"><a class="nav__text" href="./pages/greece.html">greece</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,34 +62,40 @@
     </section>
 
     <footer>
-        <!-- d:flex just-content: center align-items: center; -->
         <div class="footer__container">
-            <!-- d:flex just-content:??? space-between & flexgrow; 0 -->
+            
             <div class="footer__contact">
-                <h3>contact</h3>
-                <p>email</p>
-                <p>info@travelsite.com</p>
+                <h3 class="capitalize color__blue">contact</h3>
+                <div>
+                    <p class="uppercase color__org email">email</p>
+                    <p class="color__blue">info@travelsite.com</p>
+                </div>    
             </div>
 
-            <!-- this is important here, a flex-grow: 1; would work here well -->
             <div class="footer__hours"> 
-                <h3>hours</h3>
-                <!-- see if this <br> tag works.. if not try and flex accordingly -->
-                <div class="footer__text--grow">
-                    <p>monday - friday</p><br>
-                    <p>9:00 AM - 5:00 PM</p>
-                    <p>saturday</p><br>
-                    <p>10:00 AM - 4:00 PM</p>
-                    <p>sunday</p><br>
-                    <p>closed</p>
+
+                <h3 class="capitalize color__blue">hours</h3>
+                <div class="footer__text">
+                    <div class="hours__open">
+                        <p class="uppercase color__org">monday - friday</p>
+                        <p class="color__blue">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours__open">
+                        <p class="uppercase color__org">saturday</p>
+                        <p class="color__blue">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div class="hours__open">
+                        <p class="uppercase color__org">sunday</p>
+                        <p class="capitalize color__blue ">closed</p>
+                    </div>
                 </div>
             </div>
-            <!-- flexgrow; 0 -->
+
             <div class="footer__social">
-                <h3>social</h3>
-                <img src="./assests/Icons/icon-instagram.png" alt="Instagram-Icon">
-                <img src="./assests/Icons/icon-facebook.png" alt="Facebook-Icon">
-                <img src="./assests/Icons/icon-twitter.png" alt="Twitter-Icon">
+                <h3 class="capitalize color__blue social">social</h3>
+                <img class="social__handle" src="../assets/Icons/icon-instagram.png" alt="Instagram-Icon">
+                <img class="social__handle social__facebook" src="../assets/Icons/icon-facebook.png" alt="Facebook-Icon">
+                <img class="social__handle" src="../assets/Icons/icon-twitter.png" alt="Twitter-Icon">
             </div>
         </div>
     </footer>

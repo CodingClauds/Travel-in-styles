@@ -12,12 +12,10 @@
     <title>Travel Site</title>
 </head>
 <body>
-    <!-- nav will be d-flex w/ spacebetween  -->
     <div class="nav__box">
         <div class="nav__logo">
             <a class="logo capitalize color__blue" href="#">travel site</a>
         </div>
-        <!-- navbar will be d-flex w/ spacebetween  -->
         <div>
             <nav>
                 <ul class="nav__bar">
@@ -34,65 +32,71 @@
         <div class="header__container">
             <h1 class="capitalize color__blue">travelling comes with endless discoveries</h1>
             
-            <p class="header__text color__blue ">Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.
-            </p>
+            <p class="header__text color__blue ">Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
             <button class="button capitalize">get started</button> 
         </div>
 
         <div>
-            <img class="header__img" src="./assests/Images/hero.png" alt="an airplane that is flying around the world">
+            <img class="header__img" src="./assets/Images/hero.png" alt="an airplane that is flying around the world">
         </div>
     </header>
     
     <section>
-        <!-- <h2 class="capitalize">recommendations</h2> -->
-<!-- photocards = d:flex justify-content: center; and align-items/content: center; -->
-        <div class="photocards">
-            <div class="photocard"> <!--just-cont: space-between; --> 
-                <!-- <img src="./assests/Images/hawaii.jpg" alt="overlooking hawaii beach"> -->
-                <!-- <p>hawaii</p> -->
+        <h2 class="capitalize color__blue">recommendations</h2>
+
+        <div class="destination__cards">
+            <div class="photo__card photo__hawaii"> 
+                <img src="" alt="overlooking the beach in sunny hawaii">
+                <p class="photo__text capitalize" >hawaii</p>
             </div>
 
-            <div class="photocard">
-                <!-- <img src="./assests/Images/iceland.jpg" alt="overlooking iceland's rivers and valleys"> -->
-                <!-- <p>iceland</p> -->
+            <div class="photo__card photo__iceland">
+                <img src="" alt="birds eye view of icelands' rivers and valleys">
+                <p class="photo__text capitalize">iceland</p>
             </div>
 
-            <div class="photocard">
-                <!-- <img src="./assests/Images/greece.jpg" alt="greece and all it's glory with the white pillars and scattered rock"> -->
-                <!-- <p>greece</p> -->
+            <div class="photo__card photo__greece">
+                <img src="" alt="greece and all it's glory with the white pillars and scattered rock">
+                <p class="photo__text capitalize">greece</p>
             </div>   
         </div>
     </section>
 
     <footer>
-        <!-- d:flex just-content: center align-items: center; -->
         <div class="footer__container">
-            <!-- d:flex just-content:??? space-between & flexgrow; 0 -->
+            
             <div class="footer__contact">
                 <h3 class="capitalize color__blue">contact</h3>
-                <p class="uppercase color__org">email</p>
-                <p class="color__blue">info@travelsite.com</p>
+                <div>
+                    <p class="uppercase color__org email">email</p>
+                    <p class="color__blue">info@travelsite.com</p>
+                </div>    
             </div>
 
-            <!-- this is important here, a flex-grow: 1; would work here well -->
             <div class="footer__hours"> 
+
                 <h3 class="capitalize color__blue">hours</h3>
-                <div class="footer__text--grow">
-                    <p class="uppercase color__org">monday - friday</p>
-                    <p class="color__blue">9:00 AM - 5:00 PM</p>
-                    <p class="uppercase color__org">saturday</p>
-                    <p class="color__blue">10:00 AM - 4:00 PM</p>
-                    <p class="uppercase color__org">sunday</p>
-                    <p class="capitalize color__blue ">closed</p>
+                <div class="footer__text">
+                    <div class="hours__open">
+                        <p class="uppercase color__org">monday - friday</p>
+                        <p class="color__blue">9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours__open">
+                        <p class="uppercase color__org">saturday</p>
+                        <p class="color__blue">10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div class="hours__open">
+                        <p class="uppercase color__org">sunday</p>
+                        <p class="capitalize color__blue ">closed</p>
+                    </div>
                 </div>
             </div>
-            <!-- flexgrow; 0 -->
+
             <div class="footer__social">
-                <h3 class="capitalize color__blue">social</h3>
-                <img class="social__handle" src="./assests/Icons/icon-instagram.png" alt="Instagram-Icon">
-                <img class="social__handle social__facebook" src="./assests/Icons/icon-facebook.png" alt="Facebook-Icon">
-                <img class="social__handle" src="./assests/Icons/icon-twitter.png" alt="Twitter-Icon">
+                <h3 class="capitalize color__blue social">social</h3>
+                <a href="#"><img class="social__handle" src="./assets/Icons/icon-instagram.png" alt="Instagram-Icon"></a>
+                <a href="#"><img class="social__handle social__facebook" src="./assets/Icons/icon-facebook.png" alt="Facebook-Icon"></a>
+                <a href="#"><img class="social__handle" src="./assets/Icons/icon-twitter.png" alt="Twitter-Icon"></a>
             </div>
         </div>
     </footer>

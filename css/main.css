@@ -1,0 +1,82 @@
+
+header {
+    display: flex;
+    background-color: #FEFAF5;  
+    min-height: 40vh;
+}
+
+.header__container {
+    max-width: 35%;
+    padding: 6em 0;
+    margin: 0 6em 2em 6em;
+}
+
+.header__text {
+    min-width: 110%;
+    margin: 1.5em 0;
+}
+
+.header__img {
+    width: 65%;
+    margin: 3em 0 6em 10em;
+}
+
+.button {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    font-weight: lighter;
+    border: none;
+    letter-spacing: .5px;
+    font-size: 1.2em;
+    padding: .5em 2.5em;
+    border-radius: 2em;
+    margin: 1em 0;
+}
+
+h2 {
+    margin: 2em 4em;
+}
+
+.destination__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__card {
+    min-width: 20rem;
+    max-width: 20rem;
+    min-height: 27.5rem;
+    max-height: 28.75rem;
+    padding: 1.25rem; 
+    margin: 0 1.25rem 5.5rem 1.25rem;
+    border-radius: .3125rem;
+    box-shadow: 0 4px 4px -1px rgb(0, 0, 0, 0.2);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: transparent;
+}
+
+.photo__hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.photo__iceland {
+    background-image: url(../assets/Images/iceland.jpg);   
+}
+
+.photo__greece {
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.photo__text {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    top: 13em;
+    left: 7.5em;
+}
