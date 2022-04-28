@@ -1,38 +1,70 @@
-.background__hawaii {
-    background-image: url(../assets/Images/hawaii.jpg);
-    background: no-repeat contain;
-    min-height: 100vh;
+body {
+    margin: 0;
+}
+
+.background__image {
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
     width: 100%;
-    /* background: url("../assets/Images/hawaii.jpg") no-repeat center center; */
+}
+
+.background__image--hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.background__image--greece {
+    background-image: url(../assets/Images/greece.jpg);
 }
 
 .background__iceland {
     background-image: url(../assets/Images/iceland.jpg);
-    background: no-repeat contain;
-    min-height: 100vh;
+    background-size: cover;
+    background-position: left;
+    min-height: 80vh;
     width: 100%;
-}
-
-.background__greece {
-    background-image: url(../assets/Images/greece.jpg);
-    background: no-repeat contain;
-    min-height: 100vh;
-    width: 100%;
-}
-
-img {
-    color: transparent;
 }
 
 h1 {
     color: #fff;
-    font-size: 4em;
-    position: relative;
-    top: 3.5em;
-    left: 1.5em;
+    font-size: 4.3em;
+    margin: 0 0.8em;
+    color: #fff;
+    padding: 0.5em;
 }
 
-/* ASK about the differences between Hawaii and the others.. code is the same. These should all be affected equally */
-.background__offset {
-    margin-top: -10em;
+.photocards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photocard {
+    min-width: 20rem;
+    max-width: 20rem;
+    min-height: 27.5rem;
+    max-height: 28.75rem;
+    padding: 0 1.25rem 1.25rem 1.25rem; 
+    margin: 5.5rem 1.25rem 5.5rem 1.25rem;
+    border-radius: .3125rem;
+    box-shadow: 0 4px 4px -1px rgb(0, 0, 0, 0.2);
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.photocard__text {
+    background-color: #FEFAF5;
+    padding: 0.8em 6em;
+    margin: 1.7em 0;
 }

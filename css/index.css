@@ -1,4 +1,3 @@
-
 header {
     display: flex;
     background-color: #FEFAF5;  
@@ -12,8 +11,8 @@ header {
 }
 
 .header__text {
-    min-width: 110%;
-    margin: 1.5em 0;
+    min-width: 100%;
+    margin: 2em 0;
 }
 
 .header__img {
@@ -59,15 +58,15 @@ h2 {
     color: transparent;
 }
 
-.photo__hawaii {
+.photo__card--hawaii {
     background-image: url(../assets/Images/hawaii.jpg);
 }
 
-.photo__iceland {
+.photo__card--iceland {
     background-image: url(../assets/Images/iceland.jpg);   
 }
 
-.photo__greece {
+.photo__card--greece {
     background-image: url(../assets/Images/greece.jpg);
 }
 

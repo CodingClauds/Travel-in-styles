@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./pages/hawaii.html">
     <link rel="stylesheet" href="./pages/iceland.html">
     <link rel="stylesheet" href="./pages/greece.html">
@@ -19,10 +19,10 @@
         <div>
             <nav>
                 <ul class="nav__bar">
-                    <li class="capitalize"><a class="nav__text" href="./index.html">home</a></li>
-                    <li class="capitalize"><a class="nav__text" href="./pages/hawaii.html">hawaii</a></li>
-                    <li class="capitalize"><a class="nav__text" href="./pages/iceland.html">iceland</a></li>
-                    <li class="capitalize"><a class="nav__text" href="./pages/greece.html">greece</a></li>
+                    <li class="capitalize"><a class="nav__text nav__text--active" href="./index.html">home</a></li>
+                    <li class="capitalize"><a class="nav__text nav__text--active" href="./pages/hawaii.html">hawaii</a></li>
+                    <li class="capitalize"><a class="nav__text nav__text--active" href="./pages/iceland.html">iceland</a></li>
+                    <li class="capitalize"><a class="nav__text nav__text--active" href="./pages/greece.html">greece</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,18 +45,15 @@
         <h2 class="capitalize color__blue">recommendations</h2>
 
         <div class="destination__cards">
-            <div class="photo__card photo__hawaii"> 
-                <img src="" alt="overlooking the beach in sunny hawaii">
+            <div class="photo__card photo__card--hawaii"> 
                 <p class="photo__text capitalize" >hawaii</p>
             </div>
 
-            <div class="photo__card photo__iceland">
-                <img src="" alt="birds eye view of icelands' rivers and valleys">
+            <div class="photo__card photo__card--iceland">
                 <p class="photo__text capitalize">iceland</p>
             </div>
 
-            <div class="photo__card photo__greece">
-                <img src="" alt="greece and all it's glory with the white pillars and scattered rock">
+            <div class="photo__card photo__card--greece">
                 <p class="photo__text capitalize">greece</p>
             </div>   
         </div>
@@ -68,7 +65,7 @@
             <div class="footer__contact">
                 <h3 class="capitalize color__blue">contact</h3>
                 <div>
-                    <p class="uppercase color__org email">email</p>
+                    <p class="uppercase color__orange email">email</p>
                     <p class="color__blue">info@travelsite.com</p>
                 </div>    
             </div>
@@ -77,16 +74,16 @@
 
                 <h3 class="capitalize color__blue">hours</h3>
                 <div class="footer__text">
-                    <div class="hours__open">
-                        <p class="uppercase color__org">monday - friday</p>
+                    <div class="footer__text--open">
+                        <p class="uppercase color__orange">monday - friday</p>
                         <p class="color__blue">9:00 AM - 5:00 PM</p>
                     </div>
-                    <div class="hours__open">
-                        <p class="uppercase color__org">saturday</p>
+                    <div class="footer__text--open">
+                        <p class="uppercase color__orange">saturday</p>
                         <p class="color__blue">10:00 AM - 4:00 PM</p>
                     </div>
-                    <div class="hours__open">
-                        <p class="uppercase color__org">sunday</p>
+                    <div class="footer__text--open">
+                        <p class="uppercase color__orange">sunday</p>
                         <p class="capitalize color__blue ">closed</p>
                     </div>
                 </div>
